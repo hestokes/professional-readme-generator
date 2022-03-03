@@ -1,9 +1,18 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const {generateMarkdown} = require('./utils'); 
 
 //inquirer to generate readme questions
+const response = generateMarkdown({
+    
+    installation: 'besides',
+    usage: 'besies2'
 
-inquirer.prompt(
+})
+console.log(response);
+
+const promptUser = () => {
+ return inquirer.prompt(
     [
         {
             type: 'input',
@@ -35,7 +44,7 @@ inquirer.prompt(
             type: 'input',
             message: 'What command should be run to install dependencies?. (Required)',
             name: "installation",
-            default: "npm i"
+            default: "To install dependencies, please run: npm install from the command line."
         },
         {
             type: 'input',
@@ -89,6 +98,12 @@ inquirer.prompt(
         },
         {
             type: 'input',
+            message: 'Who would you like to thank/credit for their help with this project?.',
+            name: "credits",
+            default: 'I want to thank God, Google, my instructors, and my family, for making this project possible.'
+        },
+        {
+            type: 'input',
             message: 'What is your GitHub username?. (Required)',
             name: "username",
             validate: (value)=>{
@@ -115,4 +130,7 @@ inquirer.prompt(
         }
 
     ]
-)
+)};
+
+
+// fs.writeFile('dist/readme.md', 'hello world', (err) => {});
