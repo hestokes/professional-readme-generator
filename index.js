@@ -149,10 +149,11 @@ const response = generateMarkdown(
 );
 
 promptUser()
-.then(response  => err => {
-    console.log(response); 
+.then(response => {
+    const readME = generateMarkdown(response);
+
             
-    fs.writeFile('dist/readme.md', response, err => {
+    fs.writeFile('dist/readme.md', readME, err => {
     if (err) throw new Error(err);
     
     console.log('Page created! Check out readme.md in this directory to see it!')
