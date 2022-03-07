@@ -2,14 +2,14 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const {generateMarkdown} = require('./utils'); 
 
-//inquirer to generate readme questions
-const response = generateMarkdown({
-    
-    installation: 'besides',
-    usage: 'besies2'
+// inquirer to generate readme questions
+// const portfolioData = generateMarkdown({
 
-})
-console.log(response);
+//     installation:,
+//     usage:,
+
+// })
+// console.log(response);
 
 const promptUser = () => {
  return inquirer.prompt(
@@ -118,7 +118,7 @@ const promptUser = () => {
         {
             type: 'input',
             message: 'What is your email address if a user has questions?. (Required)',
-            name: "tests",
+            name: "email",
             validate: (value)=>{
                 if (value) {
                 return true;
@@ -132,5 +132,62 @@ const promptUser = () => {
     ]
 )};
 
+const response = generateMarkdown(
+    {
+        title: promptUser.answer,
+        description: promptUser.answer,
+        installation: promptUser.answer,
+        usage: promptUser.answer,
+        contribute: promptUser.answer,
+        test: promptUser.answer,
+        license: promptUser.answer,
+        credits: promptUser.answer,
+        username: promptUser.answer
 
-// fs.writeFile('dist/readme.md', 'hello world', (err) => {});
+    }
+
+);
+
+promptUser()
+.then(response  => err => {
+    console.log(response); 
+            
+    fs.writeFile('dist/readme.md', response, err => {
+    if (err) throw new Error(err);
+    
+    console.log('Page created! Check out readme.md in this directory to see it!')
+
+});
+
+});
+
+//      fs.writeFile('dist/readme.md', generateMarkdown., err => {
+
+//         if (err) throw new Error(err);
+    
+//         console.log('Page created! Check out index.html in this directory to see it!')
+//     });
+// });
+
+
+
+// .then(promptProject)
+// .then(portfolioData => {
+//     const readME = generatePage(portfolioData);
+
+//     fs.writeFile('dist/readme.md', readME, err => {
+//     if (err) throw new Error(err);
+
+//     console.log('Page created! Check out index.html in this directory to see it!');
+//     });
+// });
+// promptUser => {
+
+//     fs.writeFile('dist/readme.md', promptUser, err => {
+//     if (err) throw new Error(err);
+
+// console.log('Page created! Check out index.html in this directory to see it!');
+// } 
+
+
+// fs.writeFile('dist/readme.md', 'hello world', (err) => {}):

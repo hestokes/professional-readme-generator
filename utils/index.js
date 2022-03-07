@@ -1,11 +1,11 @@
-function generateMarkdown(response) {
-return   `# <${response.title}>
+function generateMarkdown(generateMarkdown) {
+return `# <${generateMarkdown.title}>
 
     ## Description
     
     Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
     
-    ${response.description}
+    ${generateMarkdown.description}
     - What was your motivation?
     - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
     - What problem does it solve?
@@ -22,11 +22,11 @@ return   `# <${response.title}>
     
     ## Installation
     
-    ${response.installation}
+    ${generateMarkdown.installation}
     
     ## Usage
     
-    ${response.usage}
+    ${generateMarkdown.usage}
     // Provide instructions and examples for use. Include screenshots as needed.
     
     // To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
@@ -34,13 +34,21 @@ return   `# <${response.title}>
     
     ## Credits
     
-    ${response.credits}
+    ${generateMarkdown.credits}
     List your collaborators, if any, with links to their GitHub profiles.
     
     If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
     
     If you followed tutorials, include links to those here as well.
     
+    ## GitHub Username
+
+    ${generateMarkdown.name}
+
+    ##Contact me here
+
+    ${generateMarkdown.email}
+
     ## License
     
     Need to look at this one!! Deal with populating this piece.
@@ -63,11 +71,11 @@ return   `# <${response.title}>
     
     ## How to Contribute
     
-    ${contribute}
+    ${generateMarkdown.contribute}
     If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
     
     ## Tests
-    ${tests}
+    ${generateMarkdown.tests}
     `;
 };
 
