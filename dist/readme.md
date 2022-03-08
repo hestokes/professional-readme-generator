@@ -1,22 +1,24 @@
-# <professional README generator>
+# <Aaron's project>
 
-    ## Description
+undefined
+
+## Description
     
-    this project creates a readme file from the command line
+    it's fun, but hard
 
     
     ## Table of Contents (Optional)
     
     
-    - [Title](#installation)
-    - [description](#usage)
-    - [Installation](#credits)
-    - [Usage](#license)
-    - [Contribute](#contribute)
-    - [Test](#test)
-    - [License](#license)
-    - [Credits](#credits)
-    - [Username](#username)
+    * [Installation](#installation)
+    * [description](#usage)
+    * [Installation](#credits)
+    * [Usage](#license)
+    * [Contribute](#contribute)
+    * [Test](#test)
+    * [License](#license)
+    * [Credits](#credits)
+    * [Username](#username)
     
     ## Installation
     
@@ -24,7 +26,7 @@
     
     ## Usage
     
-    This project is used from your terminal command line
+    carefully
     
     // To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
     
@@ -40,13 +42,11 @@
 
     ##Contact me here
 
-    hestoke@gmail.com
+    kja;fj@gmail.com
 
     ## License
     
-    Need to look at this one!! Deal with populating this piece.
-// LICENSE
-    The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+    Apache 2.0
     
     ---
     
@@ -62,9 +62,9 @@
     
     ## How to Contribute
     
-    This project is a demo. 
+    gently
     If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
     
     ## Tests
-    npm tests
+    easily
     

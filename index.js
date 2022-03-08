@@ -86,14 +86,15 @@ const promptUser = () => {
             }
         },
         {
-            type: 'checkbox',
+            type: 'list',
             message: 'What license would you like to add to your project?. (Required)',
             name: "license",
             choices: [
+                "Apache 2.0",
+                "GNU v3",
                 "MIT",
-                "Apache License",
-                "GPL license",
-                "GNU General Public License (GPL) 2.0"
+                "Unlicense",
+                "WTFPL"
             ]
         },
         {
