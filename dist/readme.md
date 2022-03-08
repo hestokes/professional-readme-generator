@@ -1,18 +1,12 @@
-# <Aaron's Project>
+# <professional README generator>
 
     ## Description
     
-    Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-    
-    It is a project about bears, their habits, their friends, people they know and love. Some of them are named Aaron, others are not named Aaron. I wish they were all named Aaron, or perhaps a B name, like Bryan.
-    - What was your motivation?
-    - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-    - What problem does it solve?
-    - What did you learn?
+    this project creates a readme file from the command line
+
     
     ## Table of Contents (Optional)
     
-    If your README is long, add a table of contents to make it easy for users to find what they need.
     
     - [Title](#installation)
     - [description](#usage)
@@ -30,7 +24,7 @@
     
     ## Usage
     
-    This project should be used for the greater good.
+    This project is used from your terminal command line
     
     // To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
     
@@ -46,7 +40,7 @@
 
     ##Contact me here
 
-    aaron.stokes@gmail.com
+    hestoke@gmail.com
 
     ## License
     
@@ -68,9 +62,9 @@
     
     ## How to Contribute
     
-    With money, and time. Lots and lots of both.
+    This project is a demo. 
     If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
     
     ## Tests
-    npm test
+    npm tests
     

@@ -3,27 +3,21 @@ return `# <${generateMarkdown.title}>
 
     ## Description
     
-    Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-    
     ${generateMarkdown.description}
-    - What was your motivation?
-    - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-    - What problem does it solve?
-    - What did you learn?
+
     
     ## Table of Contents (Optional)
     
-    If your README is long, add a table of contents to make it easy for users to find what they need.
     
-    - [Title](#installation)
-    - [description](#usage)
-    - [Installation](#credits)
-    - [Usage](#license)
-    - [Contribute](#contribute)
-    - [Test](#test)
-    - [License](#license)
-    - [Credits](#credits)
-    - [Username](#username)
+    * [Installation](#installation)
+    * [description](#usage)
+    * [Installation](#credits)
+    * [Usage](#license)
+    * [Contribute](#contribute)
+    * [Test](#test)
+    * [License](#license)
+    * [Credits](#credits)
+    * [Username](#username)
     
     ## Installation
     
@@ -51,9 +45,7 @@ return `# <${generateMarkdown.title}>
 
     ## License
     
-    Need to look at this one!! Deal with populating this piece.
-// LICENSE
-    The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+    ${generateMarkdown.license}
     
     ---
     
