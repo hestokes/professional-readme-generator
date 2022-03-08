@@ -1,7 +1,14 @@
+const licenseBadgeLinks = require("./licensebadges.js");
+
 function generateMarkdown(generateMarkdown) {
+
+generateMarkdown.licenseBadge = licenseBadgeLinks[generateMarkdown.license];
+    
 return `# <${generateMarkdown.title}>
 
-    ## Description
+${generateMarkdown.licenseBadge}
+
+## Description
     
     ${generateMarkdown.description}
 
