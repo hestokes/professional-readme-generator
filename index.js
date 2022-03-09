@@ -2,14 +2,6 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const {generateMarkdown} = require('./utils'); 
 
-// inquirer to generate readme questions
-// const portfolioData = generateMarkdown({
-
-//     installation:,
-//     usage:,
-
-// })
-// console.log(response);
 
 const promptUser = () => {
  return inquirer.prompt(

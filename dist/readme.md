@@ -1,4 +1,4 @@
-# <Aaron's professional-readme-generator>
+# <Professional READme generator>
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -20,7 +20,7 @@
 
 ## Description
     
-This project generates a professional README.md file from the command line.
+This project generates READme.md fils from the terminal.
 
 ## Installation
 
@@ -29,7 +29,7 @@ In order to install dependencies for this app, please utilize npm install in you
 
 ## Usage
 
-This project should be use to create READE.md's 
+Run node index in your terminal after downloading dependencies
 
 
 ## Tests
@@ -49,7 +49,7 @@ I want to thank God, Google, my instructors, and my family, for making this proj
 
 ## Contributing
     
-If you you wish to contribute, please contactme at the listed email or GitHub username.
+Please contact me at provided email or GitHub
 
 
 ## License
