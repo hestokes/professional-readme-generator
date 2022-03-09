@@ -1,10 +1,3 @@
-
-
-Link to video explanation of app on Google Drive https://drive.google.com/file/d/1lXHN6JgtqXUSywpfMM6uCa7Dj2qDz6XC/view
-
-Visit this apps Repository [here](https://hestokes.github.io/professional-readme-generator/)
-
-
 # <Professional-README.md-generator>
 
 ## Description
@@ -42,6 +35,8 @@ The following photos are illustrations of the above steps:
 ![Step 4]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/completed-readme-template.jpg?raw=true)
 ![Step 5]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/readme-open-preview.jpg?raw=true)
 ![Step 6]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/readme-preview.jpg?raw=true)
+
+Here is a link to a video explanation of this app on Google Drive https://drive.google.com/file/d/1lXHN6JgtqXUSywpfMM6uCa7Dj2qDz6XC/view
 
 ## Credits
 
