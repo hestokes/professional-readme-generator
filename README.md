@@ -26,7 +26,14 @@ What are the steps required to install your project? Provide a step-by-step desc
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+To use this app, please follow the following steps: 
+
+1. Install dependencies using "npm install" from your terminal.
+2. Run the app from the terminal using "node index.js". 
+3. Answer the questions provided.
+4. Find your newly created README.md file in the "dist" directory.
+5. Open the README.md file to see the completed template with your information. 
+6. Preview your README.md utilizng your IDE's preview function. (This project was built using Visual Studio Code). 
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
