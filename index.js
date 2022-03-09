@@ -44,7 +44,7 @@ const promptUser = () => {
             type: 'input',
             message: 'What command should be run to install dependencies?. (Required)',
             name: "installation",
-            default: "To install dependencies, please run: npm install from the command line."
+            default: "npm install"
         },
         {
             type: 'input',
@@ -93,8 +93,7 @@ const promptUser = () => {
                 "Apache 2.0",
                 "GNU v3",
                 "MIT",
-                "Unlicense",
-                "WTFPL"
+                "Mozilla Public License 2.0"
             ]
         },
         {
@@ -132,22 +131,6 @@ const promptUser = () => {
 
     ]
 )};
-
-const response = generateMarkdown(
-    {
-        title: promptUser.answer,
-        description: promptUser.answer,
-        installation: promptUser.answer,
-        usage: promptUser.answer,
-        contribute: promptUser.answer,
-        test: promptUser.answer,
-        license: promptUser.answer,
-        credits: promptUser.answer,
-        username: promptUser.answer
-
-    }
-
-);
 
 promptUser()
 .then(response => {

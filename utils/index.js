@@ -1,12 +1,14 @@
-const licenseBadgeLinks = require("./licensebadges.js");
+const {licenseBadgeLinks} = require("./licensebadges.js");
+
+
 
 function generateMarkdown(generateMarkdown) {
 
-generateMarkdown.licenseBadge = licenseBadgeLinks[generateMarkdown.license];
+
     
 return `# <${generateMarkdown.title}>
 
-${generateMarkdown.licenseBadge}
+${licenseBadgeLinks (generateMarkdown.license)}
 
 ## Description
     
@@ -17,18 +19,18 @@ ${generateMarkdown.licenseBadge}
     
     
     * [Installation](#installation)
-    * [description](#usage)
+    * [Description](#usage)
     * [Installation](#credits)
     * [Usage](#license)
     * [Contribute](#contribute)
     * [Test](#test)
     * [License](#license)
     * [Credits](#credits)
-    * [Username](#username)
+    * [Questions](#username)
     
     ## Installation
     
-    ${generateMarkdown.installation}
+    In order to install dependencies fort this app, please utilize ${generateMarkdown.installation} in your terminal. 
     
     ## Usage
     
@@ -42,37 +44,24 @@ ${generateMarkdown.licenseBadge}
     ${generateMarkdown.credits}
 
     
-    ## GitHub Username
 
-    ${generateMarkdown.username}
+    ##Questions
 
-    ##Contact me here
-
-    ${generateMarkdown.email}
+    If you have questions, please contact me at ${generateMarkdown.email}. Or via GitHub at ${generateMarkdown.username}.
 
     ## License
     
-    ${generateMarkdown.license}
+    This respository is licensed under the ${generateMarkdown.license} license.
     
     ---
-    
-    ## Badges
-    
-    ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-    
-    Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-    
-    ## Features
-    
-    If your project has a lot of features, list them here.
     
     ## How to Contribute
     
     ${generateMarkdown.contribute}
-    If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
     
     ## Tests
-    ${generateMarkdown.tests}
+    
+    If you would like to run tests, utilize the following from the command line: ${generateMarkdown.tests}
     `;
 };
 

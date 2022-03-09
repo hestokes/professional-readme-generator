@@ -1,10 +1,10 @@
-# <Aaron's project>
+# <AAron>
 
-undefined
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description
     
-    it's fun, but hard
+    jfoajfoap
 
     
     ## Table of Contents (Optional)
@@ -22,11 +22,11 @@ undefined
     
     ## Installation
     
-    To install dependencies, please run: npm install from the command line.
+    In order to install dependencies fort this app, please utilize npm install in your terminal. 
     
     ## Usage
     
-    carefully
+    a;lfjla;ksdjf
     
     // To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
     
@@ -42,29 +42,19 @@ undefined
 
     ##Contact me here
 
-    kja;fj@gmail.com
+    kfa;
 
     ## License
     
-    Apache 2.0
+    This respository is licensed under the GNU v3 license.
     
     ---
     
-    ## Badges
-    
-    ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-    
-    Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-    
-    ## Features
-    
-    If your project has a lot of features, list them here.
-    
     ## How to Contribute
     
-    gently
-    If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+    meow
     
     ## Tests
-    easily
+    
+    If you would like to run tests, utilize the following from the command line: mix
     
