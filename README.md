@@ -37,12 +37,13 @@ To use this app, please follow the following steps:
 
 The following photos are illustrations of the above steps:
 
-- ![Step 1](professional-readme-generator/assets/images/npm-install-dependencis.jpg)
-- [Step 2](https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/node-index-run-generator.jpg?raw=true)
-- ![Step 3](professional-readme-generator/assets/images/readme-generator-questions.jpg)
-- ![Step 4](professional-readme-generator/assets/images/completed-readme-template.jpg)
-- ![Step 5](professional-readme-generator/assets/images/readme-open-preview.jpg)
-- ![Step 6](professional-readme-generator/assets/images/readme-preview.jpg)
+![Step 1]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/npm-install-dependencis.jpg?raw=true)
+![Step 2](https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/node-index-run-generator.jpg?raw=true)
+![Step 3]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/readme-generator-questions.jpg?raw=true)
+![Step 4]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/completed-readme-template.jpg?raw=true)
+![Step 5]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/readme-open-preview.jpg?raw=true)
+![Step 6]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/readme-preview.jpg?raw=true)
+![image](https://user-images.githubusercontent.com/92754368/157555131-db17e3c3-ebcd-42cc-89a7-604e589689dc.png)
 
 
 
