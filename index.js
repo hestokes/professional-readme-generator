@@ -67,23 +67,16 @@ const promptUser = () => {
                 if (value) {
                 return true;
                 } else {
-                console.log('Please enter how a user can contribute here!');
+                console.log('Please enter a message regarding user contribution here!');
                 return false;
                 }
             }
         },
         {
             type: 'input',
-            message: 'How should a user run tests on this project?. (Required)',
+            message: 'How should a user run tests on this project?.',
             name: "tests",
-            validate: (value)=>{
-                if (value) {
-                return true;
-                } else {
-                console.log('Please inform user of how to run tests here!');
-                return false;
-                }
-            }
+            default: "[Please visit npm Docs for detailed infromation on using npm modules.](https://docs.npmjs.com/)"
         },
         {
             type: 'list',
@@ -93,7 +86,8 @@ const promptUser = () => {
                 "Apache 2.0",
                 "GNU v3",
                 "MIT",
-                "Mozilla Public License 2.0"
+                "Mozilla Public License 2.0",
+                "WTFPL"
             ]
         },
         {
@@ -146,33 +140,3 @@ promptUser()
 
 });
 
-//      fs.writeFile('dist/readme.md', generateMarkdown., err => {
-
-//         if (err) throw new Error(err);
-    
-//         console.log('Page created! Check out index.html in this directory to see it!')
-//     });
-// });
-
-
-
-// .then(promptProject)
-// .then(portfolioData => {
-//     const readME = generatePage(portfolioData);
-
-//     fs.writeFile('dist/readme.md', readME, err => {
-//     if (err) throw new Error(err);
-
-//     console.log('Page created! Check out index.html in this directory to see it!');
-//     });
-// });
-// promptUser => {
-
-//     fs.writeFile('dist/readme.md', promptUser, err => {
-//     if (err) throw new Error(err);
-
-// console.log('Page created! Check out index.html in this directory to see it!');
-// } 
-
-
-// fs.writeFile('dist/readme.md', 'hello world', (err) => {}):
