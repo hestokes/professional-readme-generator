@@ -1,6 +1,6 @@
-# <Aaron Stokes>
+# <Aaron's professional-readme-generator>
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
 
@@ -20,7 +20,7 @@
 
 ## Description
     
-this project is the best one
+This project generates a professional README.md file from the command line.
 
 ## Installation
 
@@ -29,7 +29,7 @@ In order to install dependencies for this app, please utilize npm install in you
 
 ## Usage
 
-from the command line
+This project should be use to create READE.md's 
 
 
 ## Tests
@@ -39,7 +39,7 @@ If you would like to run tests on this app, please utilize the instructions prov
 
 ## Questions
 
-If you have questions about this app, please contact me at aaron@yahoo.com.  Or via GitHub at [hestokes](https://github.com/hestokes).
+If you have questions about this app, please contact me at stokescomp01@gmail.com.  Or via GitHub at [hestokes](https://github.com/hestokes).
 
 
 ## Credits
@@ -49,11 +49,11 @@ I want to thank God, Google, my instructors, and my family, for making this proj
 
 ## Contributing
     
-pleae contact me at provided email
+If you you wish to contribute, please contactme at the listed email or GitHub username.
 
 
 ## License
 
-This respository is licensed under the Mozilla Public License 2.0 license.
+This respository is licensed under the Apache 2.0 license.
 
 ---
