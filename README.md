@@ -37,7 +37,7 @@ To use this app, please follow the following steps:
 
 The following photos are illustrations of the above steps:
 
-![Step 3](https://github.com/scarlinj/Project-One/blob/main/assets/images/city-drop-down.png)![image](https://user-images.githubusercontent.com/92754368/157551250-fdce83e3-88e5-428b-af84-c4c4944dcbd8.png)
+![Step 3]()![image]()
 
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
