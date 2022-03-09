@@ -11,6 +11,8 @@ const licenseBadgeLinks = (license) => {
         yourLicenseBadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
     } else if (licenseChosen === "Mozilla Public License 2.0") {
         yourLicenseBadge = `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
+    } else if (licenseChosen === "WTFPL") {
+        yourLicenseBadge = `[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)`
     }
     return yourLicenseBadge;
 }

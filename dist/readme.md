@@ -1,60 +1,59 @@
-# <AAron>
+# <Aaron Stokes>
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+
+
+
+    
+## Table of Contents
+    
+
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Tests](#tests)
+* [Questions](#questions)
+* [Credits](#credits)
+* [Contributing](#contributing)
+* [License](#license)
+
 
 ## Description
     
-    jfoajfoap
+this project is the best one
 
-    
-    ## Table of Contents (Optional)
-    
-    
-    * [Installation](#installation)
-    * [description](#usage)
-    * [Installation](#credits)
-    * [Usage](#license)
-    * [Contribute](#contribute)
-    * [Test](#test)
-    * [License](#license)
-    * [Credits](#credits)
-    * [Username](#username)
-    
-    ## Installation
-    
-    In order to install dependencies fort this app, please utilize npm install in your terminal. 
-    
-    ## Usage
-    
-    a;lfjla;ksdjf
-    
-    // To add a screenshot, create an 'assets/images' folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-    
-    
-    ## Credits
-    
-    I want to thank God, Google, my instructors, and my family, for making this project possible.
+## Installation
 
-    
-    ## GitHub Username
+In order to install dependencies for this app, please utilize npm install in your terminal. 
 
-    hestokes
 
-    ##Contact me here
+## Usage
 
-    kfa;
+from the command line
 
-    ## License
+
+## Tests
+
+If you would like to run tests on this app, please utilize the instructions provided here: [Please visit npm Docs for detailed infromation on using npm modules.](https://docs.npmjs.com/) 
+
+
+## Questions
+
+If you have questions about this app, please contact me at aaron@yahoo.com.  Or via GitHub at [hestokes](https://github.com/hestokes).
+
+
+## Credits
+
+I want to thank God, Google, my instructors, and my family, for making this project possible.
+
+
+## Contributing
     
-    This respository is licensed under the GNU v3 license.
-    
-    ---
-    
-    ## How to Contribute
-    
-    meow
-    
-    ## Tests
-    
-    If you would like to run tests, utilize the following from the command line: mix
-    
+pleae contact me at provided email
+
+
+## License
+
+This respository is licensed under the Mozilla Public License 2.0 license.
+
+---
