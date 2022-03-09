@@ -38,7 +38,7 @@ To use this app, please follow the following steps:
 The following photos are illustrations of the above steps:
 
 - ![Step 1](professional-readme-generator/assets/images/npm-install-dependencis.jpg)
-- ![Step 2](professional-readme-generator/assets/images/node-index-run-generator.jpg)
+- ![Step 2](https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/node-index-run-generator.jpg?raw=true)
 - ![Step 3](professional-readme-generator/assets/images/readme-generator-questions.jpg)
 - ![Step 4](professional-readme-generator/assets/images/completed-readme-template.jpg)
 - ![Step 5](professional-readme-generator/assets/images/readme-open-preview.jpg)
