@@ -1,4 +1,4 @@
-# Aaron's README Generator
+# Professional README Generator
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
@@ -20,7 +20,7 @@
 
 ## Description
     
-Creates README.md files for the user from the terminal
+This project..
 
 ## Installation
 
@@ -29,7 +29,7 @@ In order to install dependencies for this app, please utilize npm install in you
 
 ## Usage
 
-Running node index.js from the terminal, after installing dependencies
+Start using 'node index.js' from command line
 
 
 ## Tests
@@ -49,7 +49,7 @@ I want to thank God, Google, my instructors, and my family, for making this proj
 
 ## Contributing
     
-Please contact me via provided email.
+Please contact me via the provided email.
 
 
 ## License
