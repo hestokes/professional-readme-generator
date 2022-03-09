@@ -11,14 +11,13 @@ Visit this apps Repository [here](https://hestokes.github.io/professional-readme
 
 This app was created as a project for the UC Berkeley Extension Full Stack Web Development Bootcamp. This project was designed to create a professional and immediately presentable README.md file for the user to deploy as needed. This project is intended to provide a neat and painless way to create README.md files from the user's terminal, without requiring editing, and in a simple, question-based format. In writing this project, I became deeply familiar with writing javaScript code utilizing Node.js, template literals, string interpolation, and modularizing code for use and readability. I have also learned a great deal about writing README.md files with Markdown. 
 
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
-- [License](#license)
+- [Contributing](#Contributing)
+- [Tests](#tests)
 
 ## Installation
 
@@ -43,15 +42,6 @@ The following photos are illustrations of the above steps:
 ![Step 4]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/completed-readme-template.jpg?raw=true)
 ![Step 5]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/readme-open-preview.jpg?raw=true)
 ![Step 6]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/readme-preview.jpg?raw=true)
-![image](https://user-images.githubusercontent.com/92754368/157555131-db17e3c3-ebcd-42cc-89a7-604e589689dc.png)
-
-
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 
@@ -74,7 +64,7 @@ These websites were utilized as guidance for this project:
 
 ---
 
-## How to Contribute
+## Contributing
 
 This is a demo project for a Full Stack Web Development Bootcamp. However, if you are interested in contributing, please feel free to contact me @ stokescomp01@gmail.com
 
