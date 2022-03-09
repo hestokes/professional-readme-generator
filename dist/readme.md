@@ -1,6 +1,6 @@
-# <Professional READme generator>
+# Aaron's README Generator
 
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 
 
@@ -20,7 +20,7 @@
 
 ## Description
     
-This project generates READme.md fils from the terminal.
+Creates README.md files for the user from the terminal
 
 ## Installation
 
@@ -29,7 +29,7 @@ In order to install dependencies for this app, please utilize npm install in you
 
 ## Usage
 
-Run node index in your terminal after downloading dependencies
+Running node index.js from the terminal, after installing dependencies
 
 
 ## Tests
@@ -49,11 +49,11 @@ I want to thank God, Google, my instructors, and my family, for making this proj
 
 ## Contributing
     
-Please contact me at provided email or GitHub
+Please contact me via provided email.
 
 
 ## License
 
-This respository is licensed under the Apache 2.0 license.
+This respository is licensed under the GNU v3 license.
 
 ---

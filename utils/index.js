@@ -3,7 +3,7 @@ const {licenseBadgeLinks} = require("./licensebadges.js");
 
 function generateMarkdown(generateMarkdown) {
 
-return `# <${generateMarkdown.title}>
+return `# ${generateMarkdown.title}
 
 ${licenseBadgeLinks (generateMarkdown.license)}
 
