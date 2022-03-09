@@ -37,7 +37,13 @@ To use this app, please follow the following steps:
 
 The following photos are illustrations of the above steps:
 
-![Step 3]()![image]()
+- ![Step 1](professional-readme-generator/assets/images/npm-install-dependencis.jpg)
+- ![Step 2](professional-readme-generator/assets/images/node-index-run-generator.jpg)
+- ![Step 3](professional-readme-generator/assets/images/readme-generator-questions.jpg)
+- ![Step 4](professional-readme-generator/assets/images/completed-readme-template.jpg)
+- ![Step 5](professional-readme-generator/assets/images/readme-open-preview.jpg)
+- ![Step 6](professional-readme-generator/assets/images/readme-preview.jpg)
+
 
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
