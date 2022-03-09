@@ -35,6 +35,11 @@ To use this app, please follow the following steps:
 5. Open the README.md file to see the completed template with your information. 
 6. Preview your README.md utilizng your IDE's preview function. (This project was built using Visual Studio Code). 
 
+The following photos are illustrations of the above steps:
+
+![Step 3](https://github.com/scarlinj/Project-One/blob/main/assets/images/city-drop-down.png)![image](https://user-images.githubusercontent.com/92754368/157551250-fdce83e3-88e5-428b-af84-c4c4944dcbd8.png)
+
+
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
     ```md
@@ -43,11 +48,22 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
+This project was created through discussions and shared teaching with my classmates:
+
+- [Stephen Carlin](https://github.com/scarlinj)
+- [Noorullah Wardak](https://github.com/786-go)
+- [Jeongho Lee](https://github.com/Jeongholee21)
+
+I would also like to thank my UC Berkeley tutor for his help. 
+
+These websites were utilized as guidance for this project:
+
 - [String Interpolaiton help](https://dmitripavlutin.com/string-interpolation-in-javascript/)
 - [Inquirer Information](https://www.npmjs.com/package/inquirer)
 - [fs write file help](https://www.geeksforgeeks.org/node-js-fs-writefile-method/?ref=gcse)
 - [Template Literal help](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 - [Markdown help](https://markdownmonster.west-wind.com/docs/_4xs10gaui.htm)
+- [Musical inspiration](https://www.youtube.com/watch?v=gHSN4DmjPas)
 
 ---
 
