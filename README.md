@@ -36,17 +36,7 @@ The following photos are illustrations of the above steps:
 ![Step 5]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/readme-open-preview.jpg?raw=true)
 ![Step 6]( https://github.com/hestokes/professional-readme-generator/blob/main/assets/images/readme-preview.jpg?raw=true)
 
-Here is a link to a video explanation of this app on Google Drive https://drive.google.com/file/d/1lXHN6JgtqXUSywpfMM6uCa7Dj2qDz6XC/view
-
-## Credits
-
-This project was created through discussions and shared teaching with my classmates:
-
-- [Stephen Carlin](https://github.com/scarlinj)
-- [Noorullah Wardak](https://github.com/786-go)
-- [Jeongho Lee](https://github.com/Jeongholee21)
-
-I would also like to thank my UC Berkeley tutor for his help. 
+Here is a link to a video explanation of this app on Google Drive https://drive.google.com/file/d/1lXHN6JgtqXUSywpfMM6uCa7Dj2qDz6XC/view 
 
 These websites were utilized as guidance for this project:
 
